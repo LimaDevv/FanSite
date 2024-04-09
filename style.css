@@ -40,7 +40,7 @@ nav ul li a:hover {
 
 section {
     background-color: #fff;
-    padding: 40px;
+    padding: 30px;
     margin-bottom: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -55,15 +55,11 @@ section p {
     margin-bottom: 20px;
 }
 
-section ul {
-    list-style-type: none;
+section .manga {
     margin-bottom: 20px;
 }
 
-section ul li {
-    padding: 10px;
-    background-color: #f8f9fa;
-    border-radius: 8px;
+section .manga h3 {
     margin-bottom: 10px;
 }
 
@@ -75,6 +71,7 @@ footer {
     font-size: 0.9rem;
 }
 
+/* Style spécifique pour les formulaires */
 form input,
 form textarea,
 form button {
@@ -99,8 +96,16 @@ form button:hover {
     background-color: #ffc107;
 }
 
-/* Style spécifique pour le formulaire de contact */
-#contactForm {
-    max-width: 400px;
-    margin: 0 auto;
+/* Style spécifique pour les onglets */
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+section {
+    padding: 20px;
 }
